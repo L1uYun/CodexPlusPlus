@@ -3,12 +3,13 @@
   "name": "Tarantula Pet",
   "version": "0.1.0",
   "githubRepo": "L1uYun/CodexPlusPlus",
-  "description": "Adds a quiet tarantula desktop pet with stop-probe-creep behavior.",
+  "description": "Adds a quiet tarantula desktop pet with biomimetic screen crawling.",
   "author": {
     "name": "L1uYun"
   },
   "tags": ["pet", "avatar", "desktop"],
-  "scope": "renderer",
+  "permissions": ["settings", "ipc", "filesystem", "codex.windows"],
+  "scope": "both",
   "main": "index.js",
   "minRuntime": "0.1.7"
 }
